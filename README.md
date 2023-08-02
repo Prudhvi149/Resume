@@ -27,7 +27,7 @@ Web development Course : https://www.udemy.com/course/beginners-web-development-
 
 
 
-install langchain : pip install langchain[all]
+install langchain : pip install langchain openai streamlit
 
 
 
