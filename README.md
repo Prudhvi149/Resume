@@ -31,30 +31,7 @@ install langchain : pip install langchain openai streamlit
 
 
 
-Program1: 
 
-import os 
-os.environ["OPENAI_API_KEY"] = "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"
-from langchain.llms import OpenAI
-
-prompt = input('ask your question :')
-
-llm = OpenAI(temperature=0.9)
-
-response = llm(prompt) 
-
-print(response)
-
-
-Program2: 
-import os
-os.environ["OPENAI_API_KEY"] = "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"
-from langchain.llms import OpenAI
-
-inputprompt = input('ask your question')
-
-defalutprompt = "you are a chatbot"
-prompt = inputprompt +','+ defalutprompt
 
 llm = OpenAI(temperature=0.9)
 
