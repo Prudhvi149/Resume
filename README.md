@@ -34,7 +34,6 @@ install langchain : pip install langchain[all]
 Program1: 
 
 import os 
-
 os.environ["OPENAI_API_KEY"] = "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"
 from langchain.llms import OpenAI
 
@@ -43,6 +42,7 @@ prompt = input('ask your question :')
 llm = OpenAI(temperature=0.9)
 
 response = llm(prompt) 
+
 print(response)
 
 
