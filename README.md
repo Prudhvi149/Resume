@@ -34,7 +34,7 @@ install langchain : pip install langchain[all]
 Program1: 
 
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 
 from langchain.llms import OpenAI
 
